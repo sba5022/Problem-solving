@@ -8,3 +8,24 @@ for (let i = 1; i < numbers.length; i++) {
 }
 
 console.log(largest);
+ const text = "JavaScript is awesome";
+
+function countVowels(text) {
+  let count = 0;
+
+  for (let i = 0; i < text.length; i++) {
+    if (
+      text[i] === "a" ||
+      text[i] === "e" ||
+      text[i] === "i" ||
+      text[i] === "o" ||
+      text[i] === "u"
+    ) {
+      count++;
+    }
+  }
+
+  return count;
+}
+
+console.log(countVowels(text));
