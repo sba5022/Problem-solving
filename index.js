@@ -29,3 +29,14 @@ function countVowels(text) {
 }
 
 console.log(countVowels(text));
+const number = [1, 2, 2, 3, 4, 4, 5, 5, 6];
+
+const uniqueNumbers = [];
+
+for (let i = 0; i < number.length; i++) {
+  if (!uniqueNumbers.includes(number[i])) {
+    uniqueNumbers.push(number[i]);
+  }
+}
+
+console.log(uniqueNumbers);
