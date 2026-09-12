@@ -40,3 +40,14 @@ for (let i = 0; i < number.length; i++) {
 }
 
 console.log(uniqueNumbers);
+const num = [12, 45, 7, 89, 23, 56];
+
+let smallest = num[0];
+
+for (let i = 1; i < num.length; i++) {
+  if (num[i] < smallest) {
+    smallest = num[i];
+  }
+}
+
+console.log(smallest);
