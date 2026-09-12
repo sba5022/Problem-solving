@@ -82,14 +82,23 @@ console.log(average);
 // }
 
 // console.log(count);
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
 
-let count = 0;
+// let count = 0;
 
-for (let i = 0; i < numbers.length; i++) {
-  if (numbers[i] % 2 !== 0) {
-    count++;
-  }
+// for (let i = 0; i < numbers.length; i++) {
+//   if (numbers[i] % 2 !== 0) {
+//     count++;
+//   }
+// }
+
+// console.log(count);
+const numbers = [1, 2, 3, 4, 5];
+
+const reversed = [];
+
+for (let i = numbers.length - 1; i >= 0; i--) {
+  reversed.push(numbers[i]);
 }
 
-console.log(count);
+console.log(reversed);
