@@ -1,14 +1,11 @@
+const text = "javascript";
 
-const text = "madam";
+let count = 0;
 
-let reversed = "";
-
-for (let i = text.length - 1; i >= 0; i--) {
-  reversed += text[i];
+for (let i = 0; i < text.length; i++) {
+  if (text[i] === "a") {
+    count++;
+  }
 }
 
-if (text === reversed) {
-  console.log("Palindrome");
-} else {
-  console.log("Not Palindrome");
-}
+console.log(count);
