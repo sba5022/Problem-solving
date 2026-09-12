@@ -71,12 +71,23 @@ for (let i = 0; i < avg.length; i++) {
 const average = sum / avg.length;
 
 console.log(average);
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+
+// let count = 0;
+
+// for (let i = 0; i < numbers.length; i++) {
+//   if (numbers[i] % 2 === 0) {
+//     count++;
+//   }
+// }
+
+// console.log(count);
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
 
 let count = 0;
 
 for (let i = 0; i < numbers.length; i++) {
-  if (numbers[i] % 2 === 0) {
+  if (numbers[i] % 2 !== 0) {
     count++;
   }
 }
