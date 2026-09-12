@@ -51,12 +51,23 @@ for (let i = 1; i < num.length; i++) {
 }
 
 console.log(smallest);
-const nu = [10, 20, 30, 40, 50];
+// const nu = [10, 20, 30, 40, 50];
+
+// let sum = 0;
+
+// for (let i = 0; i < nu.length; i++) {
+//   sum = sum + nu[i];
+// }
+
+// console.log(sum);
+const avg = [10, 20, 30, 40, 50];
 
 let sum = 0;
 
-for (let i = 0; i < nu.length; i++) {
-  sum = sum + nu[i];
+for (let i = 0; i < avg.length; i++) {
+  sum += avg[i];
 }
 
-console.log(sum);
+const average = sum / avg.length;
+
+console.log(average);
