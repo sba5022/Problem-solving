@@ -1,11 +1,5 @@
-const text = "javascript";
+const text = "JavaScript is awesome";
 
-let count = 0;
+const result = text.replaceAll(" ", "");
 
-for (let i = 0; i < text.length; i++) {
-  if (text[i] === "a") {
-    count++;
-  }
-}
-
-console.log(count);
+console.log(result);
