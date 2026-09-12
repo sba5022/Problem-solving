@@ -8,25 +8,25 @@
 // }
 
 // console.log(largest);
- const text = "JavaScript is awesome";
+//  const text = "JavaScript is awesome";
 
-function countVowels(text) {
-  let count = 0;
+// function countVowels(text) {
+//   let count = 0;
 
-  for (let i = 0; i < text.length; i++) {
-    if (
-      text[i] === "a" ||
-      text[i] === "e" ||
-      text[i] === "i" ||
-      text[i] === "o" ||
-      text[i] === "u"
-    ) {
-      count++;
-    }
-  }
+//   for (let i = 0; i < text.length; i++) {
+//     if (
+//       text[i] === "a" ||
+//       text[i] === "e" ||
+//       text[i] === "i" ||
+//       text[i] === "o" ||
+//       text[i] === "u"
+//     ) {
+//       count++;
+//     }
+//   }
 
-  return count;
-}
+//   return count;
+// }
 
 console.log(countVowels(text));
 const number = [1, 2, 2, 3, 4, 4, 5, 5, 6];
@@ -60,17 +60,17 @@ console.log(smallest);
 // }
 
 // console.log(sum);
-const avg = [10, 20, 30, 40, 50];
+// const avg = [10, 20, 30, 40, 50];
 
-let sum = 0;
+// let sum = 0;
 
-for (let i = 0; i < avg.length; i++) {
-  sum += avg[i];
-}
+// for (let i = 0; i < avg.length; i++) {
+//   sum += avg[i];
+// }
 
-const average = sum / avg.length;
+// const average = sum / avg.length;
 
-console.log(average);
+// console.log(average);
 // const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
 
 // let count = 0;
@@ -102,20 +102,23 @@ for (let i = numbers.length - 1; i >= 0; i--) {
 }
 
 console.log(reversed);
-const text = "JavaScript is awesome";
+// const text = "JavaScript is awesome";
 
-let count = 0;
+// let count = 0;
 
-for (let i = 0; i < text.length; i++) {
-  if (
-    text[i] === "a" ||
-    text[i] === "e" ||
-    text[i] === "i" ||
-    text[i] === "o" ||
-    text[i] === "u"
-  ) {
-    count++;
-  }
-}
+// for (let i = 0; i < text.length; i++) {
+//   if (
+//     text[i] === "a" ||
+//     text[i] === "e" ||
+//     text[i] === "i" ||
+//     text[i] === "o" ||
+//     text[i] === "u"
+//   ) {
+//     count++;
+//   }
+// }
 
-console.log(count);
+// console.log(count);
+const text = "JavaScript";
+
+console.log(text.length);
