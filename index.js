@@ -102,3 +102,20 @@ for (let i = numbers.length - 1; i >= 0; i--) {
 }
 
 console.log(reversed);
+const text = "JavaScript is awesome";
+
+let count = 0;
+
+for (let i = 0; i < text.length; i++) {
+  if (
+    text[i] === "a" ||
+    text[i] === "e" ||
+    text[i] === "i" ||
+    text[i] === "o" ||
+    text[i] === "u"
+  ) {
+    count++;
+  }
+}
+
+console.log(count);
