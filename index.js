@@ -28,3 +28,16 @@ for (let i = 0; i < students.length; i++) {
 }
 
 console.log(result);
+const sentence = "I love JavaScript programming";
+
+const words = sentence.split(" ");
+
+let longest = "";
+
+for (let i = 0; i < words.length; i++) {
+  if (words[i].length > longest.length) {
+    longest = words[i];
+  }
+}
+
+console.log(longest);
