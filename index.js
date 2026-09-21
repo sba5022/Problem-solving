@@ -50,3 +50,12 @@ for (let i = 0; i < students.length; i++) {
 }
 
 console.log(result);
+const student= [
+  { name: "Sumaia", age: 23 },
+  { name: "Nadia", age: 22 },
+  { name: "Mitu", age: 24 }
+];
+
+for (let i = 0; i < students.length; i++) {
+  console.log(students[i].name);
+}
