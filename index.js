@@ -59,3 +59,11 @@ const student= [
 for (let i = 0; i < students.length; i++) {
   console.log(students[i].name);
 }
+const studen = {
+  name: "Sumaia",
+  age: 23
+};
+
+student.university = "BUP";
+
+console.log(student);
