@@ -13,13 +13,7 @@ for (let i = 0; i < numbers.length; i++) {
 }
 
 console.log(frequency);
-const students = [
-  { name: "Sumaia", age: 23 },
-  { name: "Nadia", age: 21 },
-  { name: "Mitu", age: 24 }
-];
 
-const result = [];
 
 for (let i = 0; i < students.length; i++) {
   if (students[i].age > 22) {
@@ -41,3 +35,18 @@ for (let i = 0; i < words.length; i++) {
 }
 
 console.log(longest);
+const students = [
+  { name: "Sumaia", age: 23 },
+  { name: "Nadia", age: 21 },
+  { name: "Mitu", age: 24 }
+];
+
+const result = [];
+
+for (let i = 0; i < students.length; i++) {
+  if (students[i].age > 22) {
+    result.push(students[i]);
+  }
+}
+
+console.log(result);
